@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fiyin - Home Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!---Google fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <!--swiper js CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- CSS StyleSheet -->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h3>Fiyin.py</h3>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contactMe.html">Contact</a></li>
+            </ul>
+            <button id="open_menu_icon"><i class="fa-solid fa-bars"></i></button>
+            <button id="close_menu_icon"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <!---------HEADER----------->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Hello, I'm Fiyinfoluwa.py</h1>
+                <p>I’m a certified Python developer with a passion for building dynamic and responsive websites using
+                    HTML, CSS, and JavaScript. I also excel at managing SQL databases and creating intuitive graphical
+                    user interfaces with Python frameworks like Tkinter. Let’s collaborate to create something amazing!
+                </p>
+                <a href="projects.html" class="btn btn-primary">View Projects</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/headerIMG1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!---------CATEGORIES----------->
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Languages</h1>
+                <p>
+                    Experienced with a range of technologies, I have developed proficiency through practical
+                    application. My skills, honed in various projects, enable me to effectively leverage these
+                    technologies, ensuring high-quality results and adaptability across different technical challenges.
+                </p>
+                <a href="about.html" class="btn btn-primary">Dive In</a>
+            </div>
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category-icon"><i class="fab fa-python"></i></span>
+                    <h5>Python</h5>
+                    <p>Expert in Python programming for backend development and automation.</p>
+                </article>
+
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-sharp fa-solid fa-code"></i></span>
+                    <h5>HTML</h5>
+                    <p>Skilled in creating structured, responsive web pages with HTML.</p>
+                </article>
+
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-brands fa-css3"></i></span>
+                    <h5>CSS</h5>
+                    <p>Proficient in styling websites with modern, efficient CSS techniques.</p>
+                </article>
+
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-brands fa-js"></i></span>
+                    <h5>JavaScript</h5>
+                    <p>Dynamic front-end web development using JavaScript for interactivity.</p>
+                </article>
+
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-solid fa-terminal"></i></span>
+                    <h5>Django</h5>
+                    <p>Building scalable web applications with Django framework expe</p>
+                </article>
+
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-solid fa-database"></i></span>
+                    <h5>MySQL</h5>
+                    <p>Experienced in database management and querying using MySQL</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!---------PROJECTS DONE----------->
+    <section class="projects_done">
+        <h2>My Projects</h2>
+        <div class="container projects_container">
+            <article class="projects">
+                <div class="projects_snapshot">
+                    <img src="./images/zuriTeam.png" alt="snapshot of a project">
+                </div>
+                <div class="project_info">
+                    <h4>Zuri </h4>
+                    <p>
+                        A sleek landing page developed for the Zuri team project using HTML and CSS.
+                    </p>
+                    <a href="https://fiyinfoluwapy.github.io/zuriWebsiteFrontendTask/" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+            </article>
+
+            <article class="projects">
+                <div class="projects_snapshot">
+                    <img src="./images/course2.jpg" alt="snapshot of a project">
+                </div>
+                <div class="project_info">
+                    <h4>e-Commerce Website</h4>
+                    <p>A fully responsive e-commerce website for a perfumery built with HTML, CSS, and JavaScript.</p>
+                    <a href="projects.html" class="btn btn-primary">View Project</a>
+                </div>
+            </article>
+
+            <article class="projects">
+                <div class="projects_snapshot">
+                    <img src="./images/course3.jpg" alt="snapshot of a project">
+                </div>
+                <div class="project_info">
+                    <h4> Portfolio Website</h4>
+                    <p>A dynamic portfolio showcasing web development skills using HTML, CSS, and JavaScript.
+
+                    </p>
+                    <a href="projects.html" class="btn btn-primary">View Project</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!---------PROJECTS DONE----------->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs_container">
+            <article class="faq  ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>What technologies do you use?</h4>
+                    <p>
+                        I primarily use Django and Python for back-end development,HTML,CSS and JavaScript for front-end
+                        development. <br> MySQL for database management
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>What projects do you specialize in?</h4>
+
+                    <p>
+                        I specialize in developing responsive and dynamic websites, web applications, and custom
+                        solutions using Python, Django, and modern web technologies.
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq  ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>How do you communicate with clients</h4>
+                    <p>
+                        I use various communication tools such as email, video calls, and project management platforms
+                        to keep clients updated throughout the project.
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq  ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>What do you need to start a project?</h4>
+                    <p>
+                        I need a detailed project brief, including goals, target audience, specific features, design
+                        preferences, and any other relevant information.
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>How do you charge for your services ?</h4>
+                    <p>
+                        I offer fixed and flexible price projects, depending on the scope and complexity of the work. We
+                        can discuss and agree on the best pricing model during initial consultation.
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>What payment method do you accept?</h4>
+                    <p>
+                        I accept payments via bank transfer, PayPal and other common electronic payment methods
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq  ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>Can you help with website hosting and domain setup?</h4>
+                    <p>
+                        Yes, I can assist with website hosting, domain setup, and configuration to ensure your website
+                        is live and accessible, with up to 99.9% uptime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq ">
+                <div class="faq-icon"><i class="fa-solid fa-question"></i></div>
+                <div class="question-answer">
+                    <h4>Do you provide ongoing support after the project is completed?</h4>
+                    <p>
+                        Yes, I offer ongoing support and maintainance services to ensure your website or application
+                        remains up-to-date and functional.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!---testimonials -->
+    <section class="container testimonials_container ">
+        <div class="swiper mySwiper">
+            <h2>My Client's Voice</h2>
+            <div class="swiper-wrapper">
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar6.jpg" alt="client avatar">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Maggs Socials</h5>
+                        <small>Social Media Manager</small>
+                    </div>
+                    <div class="testimony">
+                        <p>
+                            Nullam eget scelerisque odio, quis bibendum neque. Morbi ullamcorper dictum diam in
+                            condimentum.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar6.jpg" alt="client avatar">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Maggs Socials</h5>
+                        <small>Social Media Manager</small>
+                    </div>
+                    <div class="testimony">
+                        <p>
+                            Nullam eget scelerisque odio, quis bibendum neque. Morbi ullamcorper dictum diam in
+                            condimentum.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar6.jpg" alt="client avatar">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Maggs Socials</h5>
+                        <small>Social Media Manager</small>
+                    </div>
+                    <div class="testimony">
+                        <p>
+                            Nullam eget scelerisque odio, quis bibendum neque. Morbi ullamcorper dictum diam in
+                            condimentum.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar6.jpg" alt="client avatar">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Maggs Socials</h5>
+                        <small>Social Media Manager</small>
+                    </div>
+                    <div class="testimony">
+                        <p>
+                            Nullam eget scelerisque odio, quis bibendum neque. Morbi ullamcorper dictum diam in
+                            condimentum.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar6.jpg" alt="client avatar">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Maggs Socials</h5>
+                        <small>Social Media Manager</small>
+                    </div>
+                    <div class="testimony">
+                        <p>
+                            Nullam eget scelerisque odio, quis bibendum neque. Morbi ullamcorper dictum diam in
+                            condimentum.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img src="./images/avatar6.jpg" alt="client avatar">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Maggs Socials</h5>
+                        <small>Social Media Manager</small>
+                    </div>
+                    <div class="testimony">
+                        <p>
+                            Nullam eget scelerisque odio, quis bibendum neque. Morbi ullamcorper dictum diam in
+                            condimentum.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!---Footer -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <h4><a href="index.html" class="footer_logo">Fiyin.py</a></h4>
+                <p>
+                    Certified in Python, I create responsive websites with HTML, CSS, JavaScript, and manage SQL
+                    databases. <br> Expert in Tkinter for GUIs. Let's innovate together!
+                </p>
+            </div>
+            <div class="footer_2">
+                <h4>Navigation</h4>
+                <ul class="navigation_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactMe.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Community</h4>
+                <ul class="social_media">
+                    <li><a href="https://www.instagram.com/vladimirwayne9/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://github.com/fiyinfoluwapy" target="_blank"><i class="fa-brands fa-github"></i>
+                            GitHub</a></li>
+                    <li><a href="https://x.com/FiyinfoluwaPy" target="_blank"><i class="fa-brands fa-x-twitter"></i> ,
+                            fomer Twitter</a></li>
+                    <li> <a href="https://www.linkedin.com/in/ad-fiyinfoluwa-py09/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Quick Reach</h4>
+                <div>
+                    <p>+234 915 880 6735</p>
+                    <p>vladimirwayne9@gmail.com</p>
+                    <p>teedire@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; FIYINFOLUWA </small>
+        </div>
+
+    </footer>
+
+
+    <script src="main.js" async defer></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //breakpoint for when window is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
